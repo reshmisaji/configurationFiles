@@ -94,9 +94,18 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
+alias ./zshrc="vim ~/.zshrc"
+alias ./vimrc="vim ~/.vimrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias v="vim"
+alias add="git add"
+alias commit="git commit"
+alias n="node"
+alias push="git push"
+alias c="clear;ls" 
+alias mcd=". ~/projects/shell_scripts/createDirectory.sh"
 [[ -s /Users/rsreshmi/.autojump/etc/profile.d/autojump.sh ]] && source /Users/rsreshmi/.autojump/etc/profile.d/autojump.sh
 
 	autoload -U compinit && compinit -u
   set backspace=indent,eol,start
+
