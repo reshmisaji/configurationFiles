@@ -97,15 +97,19 @@ source $ZSH/oh-my-zsh.sh
 alias ./zshrc="vim ~/.zshrc"
 alias ./vimrc="vim ~/.vimrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias v="vim"
 alias add="git add"
 alias commit="git commit"
 alias n="node"
 alias push="git push"
 alias c="clear;ls" 
 alias mcd=". ~/projects/shell_scripts/createDirectory.sh"
+alias .="~"
+alias v="vim"
 [[ -s /Users/rsreshmi/.autojump/etc/profile.d/autojump.sh ]] && source /Users/rsreshmi/.autojump/etc/profile.d/autojump.sh
 
 	autoload -U compinit && compinit -u
   set backspace=indent,eol,start
+
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
