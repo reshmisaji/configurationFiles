@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+ export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/rsreshmi/.oh-my-zsh"
@@ -63,7 +63,7 @@ ZSH_THEME="agnoster"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-   zsh-autosuggestions git
+ zsh-autosuggestions git
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -94,22 +94,10 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias ./zshrc="vim ~/.zshrc"
-alias ./vimrc="vim ~/.vimrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias add="git add"
-alias commit="git commit"
-alias n="node"
-alias push="git push"
-alias c="clear;ls" 
-alias mcd=". ~/projects/shell_scripts/createDirectory.sh"
-alias .="~"
-alias v="vim"
-[[ -s /Users/rsreshmi/.autojump/etc/profile.d/autojump.sh ]] && source /Users/rsreshmi/.autojump/etc/profile.d/autojump.sh
+	[[ -s /Users/rsreshmi/.autojump/etc/profile.d/autojump.sh ]] 
 
 	autoload -U compinit && compinit -u
-  set backspace=indent,eol,start
+# set backspace=indent,eol,start
 
-
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 

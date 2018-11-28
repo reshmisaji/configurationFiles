@@ -1,5 +1,5 @@
 set nu
-set updatetime=100
+set updatetime=25
 set ruler
 set hlsearch
 set incsearch
